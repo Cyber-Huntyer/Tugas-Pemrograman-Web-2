@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="p-4 border-b flex flex-col md:flex-row items-center md:items-start md:justify-between max-w-5xl mx-auto">
+    <div class="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden">
+      <img src="img/Profil.jpg" alt="Profile" class="w-full h-full object-cover" />
+    </div>
+    <div class="mt-4 md:mt-0 md:ml-8 flex-1">
+      <div class="flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-4">
+        <h1 class="text-2xl font-semibold">adiyatma_27</h1>
+        <button class="bg-blue-500 text-white text-sm px-4 py-1 rounded md:text-base md:px-6 md:py-2">
+          Follow
+        </button>
+      </div>
+      <div class="flex space-x-6 mt-4">
+        <div><span class="font-bold">999</span> posts</div>
+        <div><span class="font-bold">998</span> followers</div>
+        <div><span class="font-bold">997</span> following</div>
+      </div>
+      <div class="mt-4">
+        <p class="font-semibold">بسم الله الرحمن الرحيم</p>
+        <p> Music | Playing Games | Basket Ball</p>
+        <p>Living the dream, one controller at a time. 🕹🎮</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Feed -->
+  <main class="max-w-5xl mx-auto p-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <!-- 12 Gambar dummy -->
+      <!-- Menggunakan grid nesting di dalam salah satu card -->
+      <div class="relative group overflow-hidden rounded shadow">
+        <img src="img/download.jpg" alt="Post" class="w-full h-full object-cover" />
+      </div>
+      <div class="relative group overflow-hidden rounded shadow">
+        <img src="img/download.jpg" alt="Post" class="w-full h-full object-cover" />
+      </div>
+      <div class="relative group overflow-hidden rounded shadow col-span-1 md:col-span-2 lg:col-span-2 grid grid-cols-2 gap-1">
+        <img src="img/download.jpg" alt="Nested" class="object-cover w-full h-full" />
+        <img src="img/download.jpg" alt="Nested" class="object-cover w-full h-full" />
+      </div>
+      <div class="relative group overflow-hidden rounded shadow">
+        <img src="img/download.jpg" alt="Post" class="w-full h-full object-cover" />
+      </div>
+      <div class="relative group overflow-hidden rounded shadow">
+        <img src="img/download.jpg" alt="Post" class="w-full h-full object-cover" />
+      </div>
+      <div class="relative group overflow-hidden rounded shadow">
+        <img src="img/download.jpg" alt="Post" class="w-full h-full object-cover" />
+      </div>
+      <div class="relative group overflow-hidden rounded shadow">
+        <img src="img/download.jpg" alt="Post" class="w-full h-full object-cover" />
+      </div>
+      <div class="relative group overflow-hidden rounded shadow">
+        <img src="img/download.jpg" alt="Post" class="w-full h-full object-cover" />
+      </div>
+      <div class="relative group overflow-hidden rounded shadow">
+        <img src="img/download.jpg" alt="Post" class="w-full h-full object-cover" />
+      </div>
+      <div class="relative group overflow-hidden rounded shadow">
+        <img src="img/download.jpg" alt="Post" class="w-full h-full object-cover" />
+      </div>
+      <div class="relative group overflow-hidden rounded shadow">
+        <img src="img/download.jpg" alt="Post" class="w-full h-full object-cover" />
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-500 p-4 mt-10 border-t">
+    © 2025 Instagram Clone. Dibuat dengan Tailwind.
+  </footer>
+
+</body>
+</html>

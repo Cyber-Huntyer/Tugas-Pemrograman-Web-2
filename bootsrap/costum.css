@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.card {
+  border-radius: 12px;
+}
+
+main {
+  min-height: 200px;
+}
