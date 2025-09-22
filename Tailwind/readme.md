@@ -1,11 +1,4 @@
-# 📸 Instagram Profile Clone - Tailwind CSS
 
-Project ini adalah implementasi halaman profil Instagram sederhana menggunakan **Tailwind CSS**.  
-Tujuannya untuk latihan membuat layout **responsif** dengan utility-first framework tanpa menulis CSS manual.
-
----
-
-## 🚀 Fitur Utama
 1. **Struktur Halaman Lengkap**
    - Header Profil (foto, username, tombol, statistik, bio).
    - Feed (12 gambar dummy).
@@ -41,4 +34,5 @@ Tujuannya untuk latihan membuat layout **responsif** dengan utility-first framew
 
 3. **utility classes vs membuat Component CSS tersendiri.**
    - Trade-off: Tailwind lebih praktis & cepat untuk prototyping atau project kecil, sedangkan
+
    - CSS component lebih cocok jika project sangat besar dan butuh konsistensi dengan banyak developer.
